@@ -43,5 +43,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:8068]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/binhex/unraid-docker-templates/master/quimnut/brewpi-wifi/brewpi-wifi.png</Icon>
+  <Icon>https://raw.githubusercontent.com/quimnut/unraid-docker-templates/master/brewpi-wifi/brewpi-wifi.png</Icon>
 </Containers>
