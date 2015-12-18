@@ -36,8 +36,18 @@
   </Environment>    
   <Data>
     <Volume>
-      <HostDir>path to data</HostDir>
+      <HostDir>path to python data</HostDir>
       <ContainerDir>/home/brewpi/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>path to web data</HostDir>
+      <ContainerDir>/var/www/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>path to settinigs</HostDir>
+      <ContainerDir>/home/brewpi/settings</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
