@@ -7,7 +7,7 @@
     BrewPi is an open source temprature controller availible at http://www.brewpi.com/ [br][br]
     To use this you require an arduino running brewpi-avr and a telnet to wifi bridge such as esp-link on an esp8266 [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/home/brewpi/data & /var/www/data[/b] This is where brewpi saves its recorded data, please map these locally[br]
+    [b]/home/brewpi/data and /var/www/data[/b] This is where brewpi saves its recorded data, please map these locally[br]
     [b]AVR[/b] Turn on advanced settings to see this, it is the ip/hostname and port of your serial wifi bridge (eg 192.168.1.1:23)[br][br]
   </Description>
   <Overview>
