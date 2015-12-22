@@ -5,9 +5,10 @@
   <Name>brewpi-wifi</Name>
   <Description>
     BrewPi is an open source temprature controller availible at http://www.brewpi.com/ [br][br]
+    To use this you require an arduino running brewpi-avr and a telnet to wifi bridge such as esp-link on an esp8266 [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/home/brewpi/data[/b] This is where brewpi saves its recorded data[br]
-    [b]AVR[/b] This is the ip/hostname and port of your serial wifi bridge (eg 192.168.1.1:23)[br][br]
+    [b]/home/brewpi/data & /var/www/data[/b] This is where brewpi saves its recorded data, please map these locally[br]
+    [b]AVR[/b] Turn on advanced settings to see this, it is the ip/hostname and port of your serial wifi bridge (eg 192.168.1.1:23)[br][br]
   </Description>
   <Overview>
     BrewPi is an open source temprature controller availible at http://www.brewpi.com/ [br][br]
@@ -15,7 +16,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=</Support>
   <Registry>https://hub.docker.com/r/quimnut/brewpi-wifi/</Registry>
   <GitHub>https://github.com/quimnut/unraid-docker-templates/brewpi-wifi/</GitHub>
-  <Repository>quimnut/brewpi-wifi</Repository>
+  <Repository>quimnut/brewpi-wifi:latest</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
@@ -43,11 +44,6 @@
     <Volume>
       <HostDir>path to web data</HostDir>
       <ContainerDir>/var/www/data</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>path to settinigs</HostDir>
-      <ContainerDir>/home/brewpi/settings</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
