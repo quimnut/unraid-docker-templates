@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-<Beta>False</Beta>
-<Category>Other:</Category>
-<Date>2016-01-25</Date>
+  <Beta>False</Beta>
+  <Category>Other:</Category>
+  <Date>2016-01-25</Date>
   <Name>brewpi-wifi</Name>
   <Description>
-    BrewPi is an open source temprature controller availible at http://www.brewpi.com/ [br][br]
-    To use this you require an arduino running brewpi-avr and a telnet to wifi bridge such as esp-link on an esp8266 [br][br]
+    BrewPi is an open source temprature controller availible at http://www.brewpi.com/ [br]
+    To use this you require an arduino running brewpi-avr and a telnet to wifi bridge such as esp-link on an esp8266 [br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/home/brewpi/data and /var/www/data[/b] This is where brewpi saves its recorded data, please map these locally[br]
-    [b]AVR[/b] Turn on advanced settings to see this, it is the ip/hostname and port of your serial wifi bridge (eg 192.168.1.1:23)[br][br]
+    [b]AVR[/b] Turn on advanced settings to see this, it is the ip/hostname and port of your serial wifi bridge (eg 192.168.1.1:23)[br]
   </Description>
   <Overview>
-    BrewPi is an open source temprature controller availible at http://www.brewpi.com/ [br][br]
+    BrewPi is an open source temprature controller availible at http://www.brewpi.com/
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=45894.0</Support>
   <Registry>https://hub.docker.com/r/quimnut/brewpi-wifi/</Registry>
