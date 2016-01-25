@@ -15,7 +15,7 @@
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=45894.0</Support>
   <Registry>https://hub.docker.com/r/quimnut/brewpi-wifi/</Registry>
-  <GitHub>https://github.com/quimnut/unraid-docker-templates/quimnut/</GitHub>
+  <GitHub>https://github.com/quimnut/unraid-docker-templates/</GitHub>
   <Repository>quimnut/brewpi-wifi</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>

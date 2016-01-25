@@ -12,9 +12,9 @@
   <Overview>
     cloud9 is a web IDE from https://c9.io/ [br][br]
   </Overview>
-  <Support>http://lime-technology.com/forum/index.php?topic=</Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=45925.0</Support>
   <Registry>https://hub.docker.com/r/quimnut/cloud9ide/</Registry>
-  <GitHub>https://github.com/quimnut/unraid-docker-templates/quimnut/</GitHub>
+  <GitHub>https://github.com/quimnut/unraid-docker-templates/</GitHub>
   <Repository>quimnut/cloud9ide</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
