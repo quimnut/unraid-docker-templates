@@ -16,7 +16,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=45925.0</Support>
   <Registry>https://hub.docker.com/r/gogs/gogs/</Registry>
   <GitHub>https://github.com/quimnut/unraid-docker-templates/</GitHub>
-  <Repository>quimnut/cloud9ide</Repository>
+  <Repository>gogs/gogs</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
@@ -37,7 +37,7 @@
   <Environment>
     <Variable>
       <Name>RUN_CROND</Name>
-      <Value>cloud9</Value>
+      <Value>true</Value>
     </Variable>
   </Environment>    
   <Data>
@@ -49,5 +49,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:8930]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/quimnut/unraid-docker-templates/master/quimnut/c9icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/quimnut/unraid-docker-templates/master/quimnut/gogs.png</Icon>
 </Containers>
