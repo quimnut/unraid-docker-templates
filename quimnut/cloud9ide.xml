@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-<Beta>True</Beta>
-<Category>Cloud: Productivity: Tools:</Category>
-<Date>2016-01-25</Date>
+  <Beta>True</Beta>
+  <Category>Cloud: Productivity: Tools:</Category>
+  <Date>2016-01-25</Date>
   <Name>cloud9ide</Name>
   <Description>
-    cloud9 is a web IDE from https://c9.io/ [br][br]
+    Cloud9 is a web IDE from https://c9.io/ [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/workspace[/b] This is the cloud9 workspace, map this locally[br]
-    [b]C9USER and C9PASS[/b] Turn on advanced settings to see this, it is the http basic auth credentials for the app[br][br]
+    [b]/workspace[/b] This is the Cloud9 workspace, map this locally[br]
+    [b]C9USER and C9PASS[/b] Turn on advanced settings to change this, it is the http basic auth credentials for the app, the username for the non-root user is also changed to this value on boot.[br][br]
   </Description>
   <Overview>
-    cloud9 is a web IDE from https://c9.io/ [br][br]
+    Cloud9 is a web IDE from https://c9.io/
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=45925.0</Support>
   <Registry>https://hub.docker.com/r/quimnut/cloud9ide/</Registry>
@@ -32,7 +32,7 @@
   <Environment>
     <Variable>
       <Name>C9USER</Name>
-      <Value>webuser</Value>
+      <Value>cloud9</Value>
     </Variable>
     <Variable>
       <Name>C9PASS</Name>
@@ -41,7 +41,7 @@
   </Environment>    
   <Data>
     <Volume>
-      <HostDir>path to cloud9 workspace</HostDir>
+      <HostDir>path to your cloud9 workspace</HostDir>
       <ContainerDir>/workspace</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
