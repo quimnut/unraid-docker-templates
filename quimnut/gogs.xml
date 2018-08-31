@@ -8,7 +8,8 @@
     gogs https://gogs.io/ is a painless self-hosted Git service [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/data[/b] This is the gogs, map this locally[br]
-    [b]Note:[/b] select sqlite3 for db when first running container[br]
+    [b]Notes:[/b] [br]
+    First run requires configuration, use sqlite3, ports 8922/8930, replace locahost, etc.[br]
   </Description>
   <Overview>
     gogs https://gogs.io/ is a painless self-hosted Git service [br][br]
