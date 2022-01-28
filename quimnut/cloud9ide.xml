@@ -46,7 +46,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8064]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/quimnut/unraid-docker-templates/master/quimnut/c9icon.png</Icon>
 </Containers>
