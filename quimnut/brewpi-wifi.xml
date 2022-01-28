@@ -48,7 +48,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8068]/</WebUI>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/quimnut/unraid-docker-templates/master/quimnut/brewpi-wifi.png</Icon>
 </Containers>
