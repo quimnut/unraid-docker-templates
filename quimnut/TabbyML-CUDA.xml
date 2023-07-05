@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>TabbyML</Name>
+  <Name>TabbyML-CUDA</Name>
   <Repository>tabbyml/tabby</Repository>
   <Registry>https://hub.docker.com/r/tabbyml/tabby/</Registry>
   <Network>bridge</Network>
@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/TabbyML/tabby/</>
   <Project/>
-  <Overview>Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.</Overview>
+  <Overview>Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot. Requires nvidia cuda.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8945]/</WebUI>
   <TemplateURL/>
@@ -20,8 +20,7 @@
   <DateInstalled>1688559318</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>TabbyML is an AI coding assistant similar to Github Copilot.&#xD;
-NOTE: you may beed to remove the extra parameters for "--gpus all" if you want to run this on cpu only.</Description>
+  <Description>TabbyML is an AI coding assistant similar to Github Copilot.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
