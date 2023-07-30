@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/TabbyML/tabby/</>
+  <Support>https://github.com/TabbyML/tabby/</Support>
   <Project/>
   <Overview>Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot. Requires nvidia cuda.</Overview>
   <Category>Productivity: Tools:</Category>
