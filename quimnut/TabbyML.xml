@@ -41,6 +41,6 @@
   <Environment/>
   <Labels/>
   <Config Name="Application data" Target="/data" Default="/mnt/user/appdata/TabbyML" Mode="rw" Description="TabbyMLs data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/TabbyML</Config>
-  <Config Name="TabyMLs port" Target="8080" Default="8945" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8945</Config>
+  <Config Name="TabyMLs port" Target="8945" Default="8945" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8945</Config>
 </Container>
 
