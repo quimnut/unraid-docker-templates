@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>TabbyML</Name>
+  <Repository>tabbyml/tabby</Repository>
+  <Registry>https://hub.docker.com/r/tabbyml/tabby/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/TabbyML/tabby/</Support>
+  <Project/>
+  <Overview>Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8945]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/quimnut/unraid-docker-templates/master/quimnut/tabby.png</Icon>
+  <ExtraParams/>
+  <PostArgs>serve --model TabbyML/SantaCoder-1B</PostArgs>
+  <CPUset/>
+  <DateInstalled>1688559318</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>TabbyML is an AI coding assistant similar to Github Copilot.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8945</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/TabbyML</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Application data" Target="/data" Default="/mnt/user/appdata/TabbyML" Mode="rw" Description="TabbyMLs data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/TabbyML</Config>
+  <Config Name="TabyMLs port" Target="8080" Default="8945" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8945</Config>
+</Container>
+
